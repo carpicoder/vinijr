@@ -55,6 +55,11 @@ a {
   grid-template-columns: 1fr 1fr;
   min-height: 100vh;
 }
+@media screen and (max-width: 576px) {
+  .hero {
+    min-height: 75vh;
+  }
+}
 
 .hero-img {
   position: absolute;
@@ -78,6 +83,11 @@ a {
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+@media screen and (max-width: 576px) {
+  .hero-title {
+    font-size: 4rem;
+  }
 }
 
 .hero-vinicius {
